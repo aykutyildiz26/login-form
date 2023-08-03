@@ -1,0 +1,32 @@
+.container{
+    border: solid 3px purple;
+    display: flex;
+    flex-direction: row;
+}
+
+a{
+    color: rgb(55, 0, 255);
+
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container input[type="button"], input[type="text"], input[type="password"]{
+    width: 400px;
+    height: 50px;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.container input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+.html, body{
+    background-color: sandybrown;
+    margin: 10%;
+}
+
+.loginbackground{
+    width: 800px;
+}

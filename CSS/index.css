@@ -1,0 +1,32 @@
+.container  li{
+    display: flex;
+    box-sizing: border-box;
+    list-style-type: none;
+    padding: 15px;
+    justify-content: center;
+}
+.comboboxandforgetpassword{
+    font-size: 20px;
+}
+
+.submit input[type="button"]{
+    background-color: black;
+    color: aliceblue;
+}
+
+.loginwithfacebook input[type="button"]{
+    background-color: blue;
+    color: aliceblue;
+}
+
+@media all and (max-width: 800px) {
+    .loginbackground{
+        display: none;
+    }
+    .container{
+        background-image: url("/Images/Laptop-background.png"); 
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
